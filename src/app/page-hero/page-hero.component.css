@@ -1,0 +1,40 @@
+.top-title{
+    width: 100vw;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.text{
+    width: 45%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 20px;
+}
+
+.text p {
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+}
+
+.svg-container{
+    width: 45%;
+    padding: 3%;
+}
+
+.workflow-diagram {
+    width: auto;
+}

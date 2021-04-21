@@ -1,0 +1,137 @@
+.nav-bar{
+    width: 94vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 5vw;
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    background-color: inherit !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.g2-badge{
+    width: auto;
+    height: 70%;
+}
+
+.menu-toggle{
+    width: auto;
+    padding: 20px;
+}
+
+.main-menu {
+    position: absolute;
+    display: block;
+    right: -200px;
+    top: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: visible;
+    z-index: 999;
+    transition: right 0.4s ease-in;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 2.5em 0 0;
+    min-height: 100%;
+    width: 200px;
+    background: #000000;
+  }
+  
+.main-menu a {
+    display: block;
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size: 1em;
+    text-decoration: none;
+    border-bottom: 1px solid #383838;
+
+}
+
+.main-menu .a-special {
+    color: #743ad5;
+}
+
+.main-menu li:first-child a {
+    border-top: 1px solid #383838;
+}
+
+.menu-close {
+    background-color: none;
+    border: none !important;
+}
+
+.menu-close:hover,
+.menu-close:focus {
+    background: #000000 !important;
+    text-decoration: none !important;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+    background: #333;
+    text-decoration: none;
+}
+
+
+.main-menu .menu-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+
+.main-menu:target {
+    display: block;
+    right: 0;
+    outline: none;
+    -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+    -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+    box-shadow: 3px 0 12px rgba(0,0,0,.25);
+}
+
+.main-menu:target .menu-close {
+    z-index: 1001;
+}
+
+.main-menu:target ul {
+    position: relative;
+    z-index: 1000;
+}
+
+
+.main-menu:target + .backdrop{
+    position: absolute;
+    display: block;  
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 998;
+    background: #000;
+    background: rgba(0,0,0,.85);
+    cursor: default;
+}
+
+@supports (position: fixed) {
+    .main-menu,
+    .main-menu:target + .backdrop{
+        position: fixed;
+    }
+}
+  
+
+@media (max-width: 752px){
+    .g2-badge{
+        visibility: hidden;
+    }
+}
+
+  
