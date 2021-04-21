@@ -38,3 +38,7 @@
 .workflow-diagram {
     width: auto;
 }
+
+.carousel{
+    z-index: 1 !important;
+}

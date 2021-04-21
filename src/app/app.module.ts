@@ -7,13 +7,19 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { PageFooterComponent } from './page-footer/page-footer.component';
 import { PageHeroComponent } from './page-hero/page-hero.component';
+import { MyCarouselComponent } from './my-carousel/my-carousel.component';
+import { ParallaxComponent } from './parallax/parallax.component';
+import { PsnCompliantComponent } from './psn-compliant/psn-compliant.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     PageFooterComponent,
-    PageHeroComponent
+    PageHeroComponent,
+    MyCarouselComponent,
+    ParallaxComponent,
+    PsnCompliantComponent
   ],
   imports: [
     BrowserModule,
