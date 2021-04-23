@@ -11,6 +11,7 @@ import { MyCarouselComponent } from './my-carousel/my-carousel.component';
 import { ParallaxComponent } from './parallax/parallax.component';
 import { PsnCompliantComponent } from './psn-compliant/psn-compliant.component';
 import { EcoSectionComponent } from './eco-section/eco-section.component';
+import { EsignInfoComponent } from './esign-info/esign-info.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EcoSectionComponent } from './eco-section/eco-section.component';
     MyCarouselComponent,
     ParallaxComponent,
     PsnCompliantComponent,
-    EcoSectionComponent
+    EcoSectionComponent,
+    EsignInfoComponent
   ],
   imports: [
     BrowserModule,
