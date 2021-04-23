@@ -10,6 +10,7 @@ import { PageHeroComponent } from './page-hero/page-hero.component';
 import { MyCarouselComponent } from './my-carousel/my-carousel.component';
 import { ParallaxComponent } from './parallax/parallax.component';
 import { PsnCompliantComponent } from './psn-compliant/psn-compliant.component';
+import { EcoSectionComponent } from './eco-section/eco-section.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PsnCompliantComponent } from './psn-compliant/psn-compliant.component';
     PageHeroComponent,
     MyCarouselComponent,
     ParallaxComponent,
-    PsnCompliantComponent
+    PsnCompliantComponent,
+    EcoSectionComponent
   ],
   imports: [
     BrowserModule,

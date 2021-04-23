@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140.078" height="140.08" viewBox="0 0 140.078 140.08">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_12436" data-name="Path 12436" d="M176.84,290.825a67.54,67.54,0,1,0,67.54-67.539,67.541,67.541,0,0,0-67.54,67.539" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.008" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0047f"/>
+      <stop offset="1" stop-color="#13017c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="-0.009" x2="0.5" y2="1.009" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="-0.02" x2="0.5" y2="1.02" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="1.013" x2="0.5" y2="-0.013" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="0.5" y1="-0.032" x2="0.5" y2="1.032" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="0.5" y1="-0.003" x2="0.5" y2="1.004" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="0.5" y1="0" x2="0.5" y2="1.011" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_5636" data-name="Group 5636" transform="translate(-174.34 -220.786)">
+    <g id="Group_5635" data-name="Group 5635">
+      <g id="Group_5634" data-name="Group 5634" clip-path="url(#clip-path)">
+        <path id="Path_12423" data-name="Path 12423" d="M276.929,309.16l-2.942.585a27.585,27.585,0,0,1,.289,9.045,27.769,27.769,0,0,1-36.6,22.625l-.976,2.836a30.777,30.777,0,0,0,40.228-35.091Z" fill="url(#linear-gradient)"/>
+        <path id="Path_12424" data-name="Path 12424" d="M271.346,291.462a2,2,0,0,0-2.829,0l-34.7,34.7a2,2,0,0,0,2.829,2.828l34.7-34.7A2,2,0,0,0,271.346,291.462Z" fill="url(#linear-gradient-2)"/>
+        <path id="Path_12425" data-name="Path 12425" d="M247.637,321.771a6.6,6.6,0,1,1,6.6-6.6,6.6,6.6,0,0,1-6.6,6.6" fill="#fff"/>
+        <path id="Path_12426" data-name="Path 12426" d="M247.637,306.568a8.6,8.6,0,1,0,8.6,8.6A8.6,8.6,0,0,0,247.637,306.568Zm0,13.2a4.6,4.6,0,1,1,4.6-4.6A4.608,4.608,0,0,1,247.637,319.771Z" fill="url(#linear-gradient-3)"/>
+        <path id="Path_12427" data-name="Path 12427" d="M237.189,342.833" fill="none" stroke="#3d891f" stroke-width="2.486"/>
+        <g id="Group_5633" data-name="Group 5633">
+          <path id="Path_12428" data-name="Path 12428" d="M260.491,254.675H234.784v12.6h7.048v5.894h4v-9.894h-7.048v-4.6h17.707v4.6h-7.048v9.894h4v-5.894h7.048Z" fill="url(#linear-gradient-4)"/>
+          <path id="Path_12429" data-name="Path 12429" d="M286.945,281.6l-10.89-10.89-3.082,2.517,3.208,4.856-2.39,2.39a2,2,0,1,0,2.829,2.828l3.185-3.185,4.312,4.312a2,2,0,0,0,2.828-2.828Z" fill="url(#linear-gradient-5)"/>
+          <path id="Path_12430" data-name="Path 12430" d="M247.638,271.167a43.892,43.892,0,0,0-32.439,14.27l2.948,2.7A40,40,0,1,1,219.1,343.2l-2.854,2.8a44,44,0,1,0,31.391-74.841Z" fill="url(#linear-gradient-6)"/>
+          <path id="Path_12431" data-name="Path 12431" d="M230.523,289.885H197.368v3h33.164v-3Z" fill="url(#linear-gradient-7)"/>
+          <path id="Path_12432" data-name="Path 12432" d="M223.875,305.287h-21.26a1.755,1.755,0,1,1,0-3.51h21.26a1.755,1.755,0,1,1,0,3.51Z" fill="#13017c"/>
+          <path id="Path_12433" data-name="Path 12433" d="M230.523,314.181H197.368v3h33.164v-3Z" fill="url(#linear-gradient-7)"/>
+          <path id="Path_12434" data-name="Path 12434" d="M221.338,326.074H202.615a1.755,1.755,0,1,0,0,3.51h18.723a1.755,1.755,0,1,0,0-3.51Z" fill="#13017c"/>
+          <path id="Path_12435" data-name="Path 12435" d="M217.75,338.478H201.115v3h16.649v-3Z" fill="url(#linear-gradient-7)"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_12437" data-name="Path 12437" d="M244.379,358.366v-2.5a65.04,65.04,0,1,0-65.039-65.041,65.125,65.125,0,0,0,65.039,65.041v5a70.04,70.04,0,1,1,70.039-70.041,70.042,70.042,0,0,1-70.039,70.041Z" fill="url(#linear-gradient-10)"/>
+  </g>
+</svg>

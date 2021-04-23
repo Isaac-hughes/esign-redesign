@@ -8,7 +8,7 @@
 }
 
 .img-container{
-    max-width: 50%;
+    max-width: 47%;
     /* min-width: 500px; */
 }
 
@@ -19,4 +19,22 @@
 .info{
     padding: 3%;
     max-width: 45%;
+    text-align: center;
+}
+@media (max-width: 752px){
+    .main{
+        flex-direction: column;
+    }
+    .img-container{
+        max-width: 100%;
+    }
+    .img-container img {
+        width: 99%;
+    }
+    .info{
+        max-width: 100%;
+    }
+    .info h1{
+        font-size: 1.7em;
+    }
 }

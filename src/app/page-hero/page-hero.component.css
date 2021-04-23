@@ -42,3 +42,18 @@
 .carousel{
     z-index: 1 !important;
 }
+
+@media (max-width: 752px){
+    .top-title{
+        flex-direction: column;
+    }
+    .text{
+        width:96%
+    }
+    .text h1{
+        font-size: 1.7em;
+    }
+    .svg-container{
+        width: 96%;
+    }
+}
