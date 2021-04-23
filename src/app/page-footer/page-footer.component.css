@@ -1,0 +1,61 @@
+.certificate{
+    padding-bottom: 20px;
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    background-color: inherit !important;
+}
+
+.info{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    background-color: inherit !important;
+}
+
+.location h3{
+    color: #743ad5;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials img {
+    width: 40px;
+    height: auto;
+    padding: 20px;
+}
+
+.text{
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px !important;
+}
+
+.privacy{
+    display: flex;  
+}
+.privacy p{
+    padding-right: 20px;
+}
+
+@media (max-width: 752px){
+    .info{
+        flex-direction: column;
+    }
+    .text{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
