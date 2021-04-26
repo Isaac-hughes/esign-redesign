@@ -1,15 +1,37 @@
 
 <div class="wrapper">
-    <h1>Click to Browse our Products!</h1>
+    <h1 class="heading">Browse our Products!</h1>
     <div class="content">
-        <img [src]="imgSrc" alt="">
-        <div class="button-container">
-            <button class="up-arrow" (click)="upArrowClick()" [disabled]="isUpDisabled">↑</button>
-            <button class="down-arrow" (click)="downArrowClick()" [disabled]="isDownDisabled">↓</button>
-        </div>
         <div class="info">
             <h1>{{title}}</h1>
             <p>{{content}}</p>
         </div>
+        <div class="button-container">
+            <button class="up-arrow" (click)="upArrowClick()" [disabled]="isUpDisabled">↑</button>
+            <button class="down-arrow" (click)="downArrowClick()" [disabled]="isDownDisabled">↓</button>
+        </div>
+        <img [src]="imgSrc" alt="">
     </div>
+
+    <div class="statics">
+        <div class="item">
+            <img src="../../assets/svg/efficiency.svg" alt="">
+            <h1>How it Works.</h1>
+            <p>Learn how the E-Sign electronic signature process works.</p>
+            <button>How it Works</button>
+        </div>
+        <div class="item">
+            <img src="../../assets/svg/speed.svg" alt="">
+            <h1>What we do.</h1>
+            <p>Reduce document processing times with electronic signatures.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="item">
+            <img src="../../assets/svg/cost-effective.svg" alt="">
+            <h1>Pricing.</h1>
+            <p>Clear and simple pricing plans to meet your business e-signature needs.</p>
+            <button>See Prices</button>
+        </div>
+    </div>
+
 </div>

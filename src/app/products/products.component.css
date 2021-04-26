@@ -4,6 +4,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+}
+
+.heading{
+    padding: 20px 10px;
 }
 
 .content{
@@ -11,16 +16,57 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
 
 }
 
 .content img {
     width: 47vw;
-    padding: 2vw;
+    padding: 20px 0px;
 }
 
 .info{
     width: 47vw;
-    padding: 2vw;
+    padding: 20px;
     text-align: center;
+}
+
+.statics{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.item h1, .item p, .item button{
+    margin: 10px;
+}
+
+.item{
+    width: 30%;
+}
+.item img{
+    width: 80%;
+}
+
+
+
+@media (max-width: 752px){
+    .content{
+        flex-direction: column;
+    }
+    .content img{
+        width: 97%;
+    }
+    .info{
+        width: 97%;
+    }
+    .statics{
+        flex-direction: column;
+    }
+    .item {
+        width: 95%;
+        margin: 25px;
+    }
 }

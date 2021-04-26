@@ -1,11 +1,16 @@
 .content{
-    width: 96vw;
+    width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding: 3vw;
+    padding: 0;
+    margin: 0;
 }
 .vid-section{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -29,15 +34,16 @@
 
 .healthcare{
     width: 96vw;
-    padding: 3vw;
+    padding: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .nhs-logo{
     padding: 100px;
-    width: 250px;
+    width: 40%;
+    height: auto;
 }
 
 .healthcare-info{
@@ -48,4 +54,25 @@
 
 .healthcare-info p {
     padding-top: 30px;
+}
+
+@media (max-width: 752px){
+    .vid-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .vid-info, .video{
+        width: 98%;
+    }
+    .nhs-logo{
+        padding: 10px;
+        width: 80%;
+    }
+    .healthcare{
+        flex-direction: column;
+    }
+    .healthcare-info{
+        width: 100%;
+        padding: 5px;
+    }
 }
