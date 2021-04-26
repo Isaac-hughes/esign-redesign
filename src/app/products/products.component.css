@@ -1,0 +1,26 @@
+.wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content img {
+    width: 47vw;
+    padding: 2vw;
+}
+
+.info{
+    width: 47vw;
+    padding: 2vw;
+    text-align: center;
+}

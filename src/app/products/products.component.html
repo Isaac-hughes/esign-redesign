@@ -1,0 +1,15 @@
+
+<div class="wrapper">
+    <h1>Click to Browse our Products!</h1>
+    <div class="content">
+        <img [src]="imgSrc" alt="">
+        <div class="button-container">
+            <button class="up-arrow" (click)="upArrowClick()" [disabled]="isUpDisabled">↑</button>
+            <button class="down-arrow" (click)="downArrowClick()" [disabled]="isDownDisabled">↓</button>
+        </div>
+        <div class="info">
+            <h1>{{title}}</h1>
+            <p>{{content}}</p>
+        </div>
+    </div>
+</div>

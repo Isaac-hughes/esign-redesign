@@ -1,0 +1,9 @@
+export const Products = [
+    {src: "../../assets/svg/electronic-signature-solutions.svg", title: "Electronic Signatures", content: "Digitalise your document signing process with our secure and compliant e-signatures solutions and enjoy increased productivity, streamlined administration and substantial cost savings."},
+    {src: "../../assets/svg/digitised-web-forms.svg", title: "Web Forms", content: "Allow customers to fill in and e-sign documents on your website, app or via email, collecting all the information you require in an easy and signable format."},
+    {src: "../../assets/svg/e-sign-id-checker.svg", title: "ID Checker", content: "With our embedded iD Checker, you can verify the identity of your e-signers to minimise the risk of fraud and ensure your transactions are secure."},
+    {src: "../../assets/svg/personalised-email.svg", title: "Personalised Email", content: "Ensure strong, uniformed branding across all your communications and send documents for e-signature in a personalised email."},
+    {src: "../../assets/svg/e-sign-verification.svg", title: "Verification Tools", content: "Use E-Sign’s verification tools, anytime, anywhere to ensure your transactions are secure and fully verified."},
+    {src: "../../assets/svg/e-sign-api.svg", title: "API", content: "Integrate E-Sign’s API e-signature software into your website today for a smoother digital experience for you and your customers."},
+    {src: "../../assets/svg/payment-processing.svg", title: "Payment processing", content: "Rapidly improve document completion times and customer experience with E-Sign’s instant payment capture."}
+]

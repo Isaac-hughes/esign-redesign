@@ -12,6 +12,7 @@ import { ParallaxComponent } from './parallax/parallax.component';
 import { PsnCompliantComponent } from './psn-compliant/psn-compliant.component';
 import { EcoSectionComponent } from './eco-section/eco-section.component';
 import { EsignInfoComponent } from './esign-info/esign-info.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { EsignInfoComponent } from './esign-info/esign-info.component';
     ParallaxComponent,
     PsnCompliantComponent,
     EcoSectionComponent,
-    EsignInfoComponent
+    EsignInfoComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
