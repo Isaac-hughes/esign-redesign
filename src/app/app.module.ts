@@ -13,6 +13,7 @@ import { PsnCompliantComponent } from './psn-compliant/psn-compliant.component';
 import { EcoSectionComponent } from './eco-section/eco-section.component';
 import { EsignInfoComponent } from './esign-info/esign-info.component';
 import { ProductsComponent } from './products/products.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProductsComponent } from './products/products.component';
     PsnCompliantComponent,
     EcoSectionComponent,
     EsignInfoComponent,
-    ProductsComponent
+    ProductsComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
